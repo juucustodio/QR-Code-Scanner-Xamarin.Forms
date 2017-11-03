@@ -5,9 +5,7 @@
              x:Class="Demo.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button  Text="Open Scanner" Clicked="OpenScanner"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
