@@ -25,6 +25,9 @@ namespace Demo.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            //Inicializa o Zxing no iOS
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
+
             return base.FinishedLaunching(app, options);
         }
     }
